@@ -5,7 +5,7 @@ export const openBlurApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "https://openblur.p.rapidapi.com/",
     headers: {
-      "X-RapidAPI-Key": "238caad448msh6e4a052dda5d60ep12d738jsn83915432d912", // TODO: For now, we can keep it here. Move to .env in the feature
+      "X-RapidAPI-Key": "",
       "X-RapidAPI-Host": "openblur.p.rapidapi.com",
     },
   }),
